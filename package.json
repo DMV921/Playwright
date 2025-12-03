@@ -1,0 +1,13 @@
+{
+  "name": "playwright-eventswidget",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ci": "npx playwright install --with-deps && npx playwright test --reporter=list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "typescript": "^5.1.6"
+  }
+}
